@@ -30,8 +30,8 @@ const About = () => {
         <span ref={el}></span>
         </Box>
       </Box>
-      <Box width="20%" fontWeight="lighter" display={{xl:"flex"}} flexDirection={{xl:"column"}} alignItems={{xl:"center"}}>
-      <Text>
+      <Box width={{base:"90%", md:"550px", xl:'80%'}} fontWeight="lighter">
+      <Text marginLeft={{xl:"400px"}}>
       I'm a developer skilled with a wide range of technologies and frameworks.
       I have experience with working in teams and can coordinate well with others.
       </Text>
