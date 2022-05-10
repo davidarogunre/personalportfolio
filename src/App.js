@@ -7,7 +7,7 @@ import {
   VStack,
   Code,
   Grid,
-  theme,
+  theme
 } from '@chakra-ui/react';
 
 import About from './components/About'
@@ -16,6 +16,9 @@ import Navbar from './components/Navbar'
 // import Projects from './components/Projects'
 // import Skills from './components/Skills'
 
+
+
+
 function App() {
   return (
     <ChakraProvider theme={theme}>
@@ -23,7 +26,6 @@ function App() {
         <Navbar/>
         <About/>
         {/* <Dashboard/> */}
-
       </Box>
     </ChakraProvider>
   );
